@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: sans-serif;
+    background-color:rgb(199, 71, 199);
+}
+body{
+    background-image:  linear-gradient(to top right,rgb(83, 8, 144),rgb(199, 71, 199),rgb(115, 15, 75),rgb(230, 125, 33));
+    height: 876px;
+    background-size: cover;
+}
+
+.header {
+    margin: auto-30px;
+    padding: 10px 20px;
+    background-image: linear-gradient(rgb(64, 17, 117),rgb(153, 24, 151));
+    box-shadow: 0 0 2px 0 rgb(34, 1, 1);
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
+.header h3{
+    font-size: 2rem;
+    font-weight: 50px;
+    color :#000000;
+    
+}
+
+form{
+    position: relative;
+    width: 700px;
+    background-image: linear-gradient(blue,rgb(87, 210, 186));
+    margin:32px auto 40px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 1px 7px rgb(34, 3, 3);
+    background-position: 400px;
+}
+form input{
+    width: 100%;
+    height: 40px;
+    color: black;
+    background:rgb(49, 49, 218);
+    border: none;
+    padding: 25px 15px;
+    margin:15px auto 16px auto;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+form textarea{
+    width: 100%;
+    height: 80px;
+    color: black;
+    background:rgba(21, 66, 199, 0.331);
+    box-shadow: #000000;
+    color: rgb(6, 0, 0);
+    border: none;
+    padding: 30px 15px;
+    margin:15px auto 15px auto;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+.note{
+   
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb(15, 9, 1);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+}
+.note h1{
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+.note p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+form button{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    right:18px;
+    bottom:-18px;
+    background: rgba(184, 15, 63, 0.852);
+    color:#fff;
+    border-radius: 90%;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 1px 3px rgb(223, 214, 214);
+    cursor: pointer;
+    outline:none;
+}
+
+.note button{
+    position:relative;
+    float: right;
+    color: black;
+    border: 70%;
+    cursor: pointer;
+    outline: none;
+    background-color:gold;
+    display: flex;
+
+    
+}
+
+.count{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
