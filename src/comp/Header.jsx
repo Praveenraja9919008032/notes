@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header()
  {
-  const logo = <img src =  "" />
+  const logo = <img src =  "" alt="" />
   return (
     <div className="header">
       {logo}
